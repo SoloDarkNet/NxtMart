@@ -32,7 +32,7 @@ const Login = () => {
 
   const jwtToken = Cookies.get('jwt_token')
   if (jwtToken !== undefined) {
-    return <Redirect to="/" />
+    return <Redirect to="/login" />
   }
 
   const formLogo = () => (
