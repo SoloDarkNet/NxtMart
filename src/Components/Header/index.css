@@ -1,0 +1,40 @@
+.nav-header {
+  background-color: #f7f7f7;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #555;
+  margin-left: 24px;
+}
+
+button {
+  background: transparent;
+  border: none;
+  padding: 5px 12px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #555;
+}
+.nav-item:hover {
+  color: rgb(28, 114, 28);
+  text-decoration: underline;
+  font-weight: 500;
+}
